@@ -2,7 +2,7 @@
 
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
-import { Mail, Phone, MapPin, Award, ChevronDown } from "lucide-react";
+import { Mail, Phone, MapPin, Award, ChevronDown, Instagram } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 import { useRef } from "react";
 
@@ -79,6 +79,14 @@ export default function Hero() {
                     className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/70 hover:bg-[#c4728f]/10 hover:text-[#c4728f] transition-all"
                   >
                     <Phone size={12} /> +420 608 483 142
+                  </a>
+                  <a
+                    href="https://www.instagram.com/fit_with_vasi/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/70 hover:bg-[#c4728f]/10 hover:text-[#c4728f] transition-all"
+                  >
+                    <Instagram size={12} /> @fit_with_vasi
                   </a>
                   <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/70">
                     <MapPin size={12} /> {t.location}
