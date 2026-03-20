@@ -29,7 +29,7 @@ export default function InstagramFeed() {
   return (
     <section
       id="instagram"
-      className="py-20 sm:py-28 bg-gradient-to-b from-transparent via-[#f3e8ee]/20 to-transparent"
+      className="py-12 sm:py-16 bg-gradient-to-b from-transparent via-[#f3e8ee]/20 to-transparent"
       ref={ref}
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-8">

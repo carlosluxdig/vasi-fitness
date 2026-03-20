@@ -22,9 +22,9 @@ export default function Hero() {
     <section
       id="hero"
       ref={ref}
-      className="relative min-h-screen flex items-center overflow-hidden"
+      className="relative pt-24 pb-16 sm:pt-28 sm:pb-20 overflow-hidden"
     >
-      <motion.div style={{ opacity }} className="w-full max-w-6xl mx-auto px-4 sm:px-8 pt-16">
+      <motion.div style={{ opacity }} className="w-full max-w-6xl mx-auto px-4 sm:px-8">
         <div className="relative rounded-3xl overflow-hidden bg-gradient-to-br from-[#f3e8ee] via-[#faf5f7] to-[#f5f0eb] border border-[#c4728f]/10">
           <div className="grid md:grid-cols-5 items-center">
             <motion.div style={{ y: imageY }} className="md:col-span-2 relative">
@@ -102,7 +102,7 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5, duration: 0.6 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
+        className="mt-8 flex flex-col items-center gap-2"
       >
         <span className="text-xs text-[#7a7a7a]">{t.heroScrollCta}</span>
         <motion.div

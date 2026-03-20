@@ -11,7 +11,7 @@ export default function Contact() {
   const inView = useInView(ref, { once: true, margin: "-80px" });
 
   return (
-    <section id="contact" className="py-20 sm:py-28" ref={ref}>
+    <section id="contact" className="py-12 sm:py-16" ref={ref}>
       <div className="max-w-4xl mx-auto px-4 sm:px-8">
         {/* Philosophy */}
         <motion.div

@@ -21,7 +21,7 @@ export default function LanguagesSection() {
   const inView = useInView(ref, { once: true, margin: "-80px" });
 
   return (
-    <section id="languages" className="py-20 sm:py-28" ref={ref}>
+    <section id="languages" className="py-12 sm:py-16" ref={ref}>
       <div className="max-w-5xl mx-auto px-4 sm:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
